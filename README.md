@@ -52,6 +52,77 @@ Run in terminal `brew install git`
 1. Run `brew install --cask visual-studio-code`
 2. Shell command: Install 'code' command in PATH.
 
+## VS Code Plugins
+1. change-case
+   - Quickly change cases.
+2. Code Spell Checker
+   - Grammar check in code.
+3. Debugger for Chrome
+   - Debug code running in Chrome from VS code. 
+4. EditorConfig for VS Code
+   - Override workspace settings with custom config.
+5. ES7 React/Redux/GraphQL/React Native Snippets
+   - Adds most used snippets.
+6. ESLint
+   - Linting support.
+7. Markdown All in one
+   - Support and features
+8. Node.js Modules Intellisense
+   - Autocomplete imports.
+9. npm
+   - Support to run scripts defined in `package.json`
+10. npm Intellisense
+   -  Autocomplete imports.
+11. Partial Diff
+    - Compare selections
+12. Path Intellisense
+    - Autocomplete paths.
+13. Prettier
+    - Code formatter.
+14. Settings Sync
+    - Able to get settings from other computers.
+15. Tailwind CSS IntelliSense
+    - CSS class intellisense for Tailwind.
+16. Visual Studio IntelliCode
+    - AI-assisted development
+17. XML Tools
+    - Formatting and support.
+18. YAML
+    - Formatting and support.
+19. :emojisense
+    - Adds emoji support.
+20. Auto Close Tag
+    - Adds closing tags.
+21. Auto Rename Tag
+    - Changes appropriate tag when edited.
+22. Better Comments
+    - Styling support in comments
+23. Bracket Pair Colorizer
+    - Adds color to bracket pairs.
+24. Color Info
+    - Previews color when typed.
+25. DotENV
+    - Support and syntax
+26. gi
+    - Create .gitignore files faster.
+27. HTML CSS Support
+    - Attribute completion and support.
+28. Import Cost
+    - Shows package sizes.
+29. Live Server
+    - Local server for testing
+30. Live Share
+    - Real-Time collaborative development support.
+31. Material Icon Theme
+    - Better icons.
+32. Material Theme
+    - Better editor themes.
+33. Polacode
+    - Take better screenshots.
+34. Project Manager
+    - Easily change projects
+
+
 ## Oh My Zsh
 1. Run `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 2. Run `code ~/.zshrc` to open the config file.
@@ -123,5 +194,9 @@ Run in terminal `brew install git`
    - Adds aliases and utilities.
 9. z
    - Tracks most visited directories. 
+
+## Node
+
+1. Run `brew install node`
 
 ## VS Code Extensions
