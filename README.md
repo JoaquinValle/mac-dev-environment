@@ -97,4 +97,31 @@ Run in terminal `brew install git`
    - Suggests commands based on history.
    - Install with `brew install zsh-autosuggestions`
    - Add `source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh` to `~/.zshrc`
+  
+3. Zsh Substring History Search
+   - Search substrings in history.
+   - Install with `brew install zsh-history-substring-search`
+   - Add `source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh` to `~/.zshrc`
+   - Bind UP and DOWN keys with bindkey `'^[OA' history-substring-search-up` and `bindkey '^[OB' history-substring-search-down`
+
+## Oh My Zsh Plugins
+1. Alias-finder
+   - Searches for defined aliases.
+2. brew
+   - Brew alias commands.
+3. copydir
+   - Copies current path to clipboard.
+4. copyfile
+   - Copies file to clipboard.
+5. dotenv
+   - Loads .env variables when in root folder.
+6. npm
+   - Adds aliases.
+7. nvm
+   - Adds aliases.
+8. osx
+   - Adds aliases and utilities.
+9. z
+   - Tracks most visited directories. 
+
 ## VS Code Extensions
