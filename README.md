@@ -266,9 +266,22 @@ Run in terminal `brew install git`
    
 ***Add key to keychain if passcode is added.**
 
+## Databases
+1. MongoDB
+2. MySQL
+3. [FaunaDB](https://docs.fauna.com/fauna/current/start/cloud#signup)
+   - Run `brew install fauna-shell`
+   - Run `fauna cloud-login`
+   - Get secret from Database > Security > Keys (If logged suing Github)
+4. GraphQL
+
+## Extra Applications
+1. Godot
+   - Run `brew install --cask godot`
 
 ## TODO
 - Add databases
 - Other VS Code extensions
 - Other mac applications
 - CLI Tools
+
