@@ -131,6 +131,7 @@ Run in terminal `brew install git`
     - Previews color when typed.
 25. DotENV
     - Support and syntax
+    - Add `ZSH_DOTENV_FILE=.env` before Oh my zsh sourcing.
 26. gi
     - Create .gitignore files faster.
 27. HTML CSS Support
