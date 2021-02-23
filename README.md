@@ -1,5 +1,4 @@
 # Development Environment for Mac OS
-
   - [Mac Settings](#mac-settings)
     - [**File extensions**](#file-extensions)
     - [**Show hidden files**](#show-hidden-files)
@@ -21,8 +20,8 @@
   - [Yarn](#yarn)
   - [Firebase](#firebase)
   - [Applications](#applications)
+  - [Github](#github)
   - [TODO](#todo)
-
 
 ## Mac Settings
 <br/>
@@ -257,5 +256,19 @@ Run in terminal `brew install git`
    - Run `brew install --cask insomnia-designer`
    - API design.
 
+## [Github](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+
+1. 
+   >ssh-keygen -t ed25519 -C "your_email@example.com"           
+   >eval "$(ssh-agent -s)"  
+   >pbcopy < ~/.ssh/id_ed25519.pub
+2. Add key in Github
+   
+***Add key to keychain if passcode is added.**
+
+
 ## TODO
 - Add databases
+- Other VS Code extensions
+- Other mac applications
+- CLI Tools
