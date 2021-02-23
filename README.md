@@ -196,7 +196,33 @@ Run in terminal `brew install git`
    - Tracks most visited directories. 
 
 ## Node
-
 1. Run `brew install node`
+2. To install nvm run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash`
 
-## VS Code Extensions
+## Yarn
+1. Run `npm install -g yarn`
+
+## Firebase
+1. Run `npm install -g firebase-tools`
+2. Run `firebase login` to login using the UI.
+
+## Applications
+1. Rectangle
+   - Run `brew install --cask rectangle`
+   - Useful to arrange windows.
+   - Create macros.
+2. Numi
+   - Run `brew install --cask numi`
+   - Better calculator
+3. Telegram
+   - Run `brew install --cask telegram`
+   - Better messaging application.
+4. Insomnia
+   - Run `brew install --cask insomnia`
+   - Testing API endpoints.
+5. Insomnia Designer
+   - Run `brew install --cask insomnia-designer`
+   - API design.
+
+## TODO
+- Add databases
