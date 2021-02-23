@@ -57,10 +57,14 @@ Run in terminal `brew install git`
 2. Run `code ~/.zshrc` to open the config file.
 
 ## Terminal Font - MesloLGS NF
-1. [Regular Font](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
-2. [Bold Font](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
-3. [Italic Font](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
-4. [Bold Italic Font](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
+
+1. Install fonts: 
+- [Regular Font](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
+- [Bold Font](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
+- [Italic Font](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
+- [Bold Italic Font](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
+- 
+2. iTerm2 > Preferences > Profiles > Text > Font
 
 ## Oh My Zsh Theme
 1. Run `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
@@ -83,5 +87,14 @@ Run in terminal `brew install git`
    -  Transient Script 
    -  Quiet Prompt Mode (Verbose has issues)
 
+## Zsh Plugins
+1. Zsh Syntax Highlighting
+   - Highlights commands when typed.
+   - Install with `brew install zsh-syntax-highlighting`
+   - Add `source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh` to `~/.zshrc`
 
+2. Zsh Autosuggestions
+   - Suggests commands based on history.
+   - Install with `brew install zsh-autosuggestions`
+   - Add `source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh` to `~/.zshrc`
 ## VS Code Extensions
