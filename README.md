@@ -52,6 +52,11 @@ Run in terminal `brew install git`
 1. Run `brew install --cask visual-studio-code`
 2. Shell command: Install 'code' command in PATH.
 
+## VS Code Settings
+1. [Fira Code Font](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip)
+2. Font family -> `"editor.fontFamily": "Fira Code"`
+3. Font ligatures -> `"editor.fontLigatures": true`
+
 ## VS Code Plugins
 1. change-case
    - Quickly change cases.
