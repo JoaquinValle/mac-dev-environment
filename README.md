@@ -1,5 +1,29 @@
 # Development Environment for Mac OS
 
+  - [Mac Settings](#mac-settings)
+    - [**File extensions**](#file-extensions)
+    - [**Show hidden files**](#show-hidden-files)
+    - [**Navbar**](#navbar)
+    - [**General Settings**](#general-settings)
+  - [Homebrew](#homebrew)
+  - [iTerm2](#iterm2)
+  - [Git](#git)
+  - [Zsh](#zsh)
+  - [VS Code](#vs-code)
+  - [VS Code Settings](#vs-code-settings)
+  - [VS Code Plugins](#vs-code-plugins)
+  - [Oh My Zsh](#oh-my-zsh)
+  - [Terminal Font - MesloLGS NF](#terminal-font---meslolgs-nf)
+  - [Oh My Zsh Theme](#oh-my-zsh-theme)
+  - [Zsh Plugins](#zsh-plugins)
+  - [Oh My Zsh Plugins](#oh-my-zsh-plugins)
+  - [Node](#node)
+  - [Yarn](#yarn)
+  - [Firebase](#firebase)
+  - [Applications](#applications)
+  - [TODO](#todo)
+
+
 ## Mac Settings
 <br/>
 
@@ -212,20 +236,24 @@ Run in terminal `brew install git`
 2. Run `firebase login` to login using the UI.
 
 ## Applications
-1. Rectangle
+1. Google Chrome
+   - brew `brew install --cask google-chrome`
+2. Firefox
+   - `brew install --cask firefox`
+3. Rectangle
    - Run `brew install --cask rectangle`
    - Useful to arrange windows.
    - Create macros.
-2. Numi
+4. Numi
    - Run `brew install --cask numi`
    - Better calculator
-3. Telegram
+5. Telegram
    - Run `brew install --cask telegram`
    - Better messaging application.
-4. Insomnia
+6. Insomnia
    - Run `brew install --cask insomnia`
    - Testing API endpoints.
-5. Insomnia Designer
+7. Insomnia Designer
    - Run `brew install --cask insomnia-designer`
    - API design.
 
