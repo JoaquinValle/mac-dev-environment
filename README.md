@@ -256,24 +256,49 @@ Run in terminal `brew install git`
    - Run `brew install --cask insomnia-designer`
    - API design.
 
-## [Github](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+## Chrome Extensions
+1. [The Great Suspender](https://github.com/aciidic/thegreatsuspender-notrack/archive/7.1.11-notrack.zip)
+   - The original extension was flagged as malware and removed; therefore, building the extension from source is required.
+   - Click this link [Chrome Extensions](chrome://extensions/)
+   - Turn on developer mode.
+   - Load unpacked extension.
+   - Select src folder.
+2. [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm/related)
+   - Used to add CSS development tools.
+3. [Code Cola](https://chrome.google.com/webstore/detail/code-cola/lomkpheldlbkkfiifcbfifipaofnmnkn/related)
+   - Visually edit CSS code. 
+4. [Alexa Traffic Ranking](https://chrome.google.com/webstore/detail/alexa-traffic-rank/cknebhggccemgcnbidipinkifmmegdel/related)
+   - Check page statistics and traffic.
+
+## [Github SSH Key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 1. 
-   >ssh-keygen -t ed25519 -C "your_email@example.com"           
-   >eval "$(ssh-agent -s)"  
-   >pbcopy < ~/.ssh/id_ed25519.pub
+   >`ssh-keygen -t ed25519 -C "your_email@example.com`"           
+   >`eval "$(ssh-agent -s)"  `
+   >`pbcopy < ~/.ssh/id_ed25519.pub`
 2. Add key in Github
+
+## Other Github
+1. Run `git config --global user.name "Joaquin Valle"`
+2. Run `git config --global user.email "email@example.com"`
+3. Run `git config --global pull.ff only`
    
 ***Add key to keychain if passcode is added.**
 
 ## Databases
-1. MongoDB
+1. [MongoDB](https://docs.mongodb.com/mongocli/master/configure/#std-label-mcli-configure)
+   - Run `brew install --cask mongodb-compass`
+   - Run `brew install mongodb/brew/mongodb-community-shell`
+   - >`brew tap mongodb/brew`       
+     >`brew install mongocli`
+
 2. MySQL
 3. [FaunaDB](https://docs.fauna.com/fauna/current/start/cloud#signup)
    - Run `brew install fauna-shell`
    - Run `fauna cloud-login`
    - Get secret from Database > Security > Keys (If logged suing Github)
 4. GraphQL
+   - Run `npm i -g graphql-cli graphql` to install cli
 
 ## Extra Applications
 1. Godot
