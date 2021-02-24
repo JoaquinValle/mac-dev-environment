@@ -191,7 +191,7 @@ Run in terminal `brew install git`
 
 1. [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
    - Highlights commands when typed.
-   - Install with git clone `https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+   - Install with `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
 2. [Zsh Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
    - Suggests commands based on history.
    - Install with `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
@@ -218,6 +218,9 @@ Run in terminal `brew install git`
    - Tracks most visited directories. 
 12. [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload)
     - Reloads terminal with `src`
+13. [zsh-completions](https://github.com/zsh-users/zsh-completions)
+    - Adds completion scripts.
+    - Install with `git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions`
 
 ## [Node](https://nodejs.org/en/)
 1. Run `brew install node`
