@@ -44,23 +44,21 @@ Run in terminal `defaults write com.apple.Finder AppleShowAllFiles true`
 3. Trackpad > Point & Click > Secondary Click > click with 2 fingers
 
 
-## Homebrew
+## [Homebrew](https://brew.sh/)
 
 Run in terminal `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 Run `brew doctor` to verify the installation.
 
-## iTerm2
+## [iTerm2](https://iterm2.com/)
 
 1. Run in terminal `brew install --cask iterm2`
 2. Preferences > Keys > Hotkey > Show/hide all windows with a system-wide hotkey
 
-## Git
-
+## [Git](https://git-scm.com/)
 Run in terminal `brew install git`
 
-## Zsh
-
+## [Zsh](https://www.zsh.org/)
 1. Run in terminal `brew install zsh`
 2. Add Zsh to default shell with `sudo vim /etc/shells`
 3. Press o to append to new line
@@ -71,7 +69,7 @@ Run in terminal `brew install git`
 8. Restart terminal.
 9. Run `echo $SHELL`. It should return the path to zsh (`/usr/local/bin/zsh`).
 
-## VS Code
+## [VS Code](https://code.visualstudio.com/)
 1. Run `brew install --cask visual-studio-code`
 2. Shell command: Install 'code' command in PATH.
 
@@ -152,11 +150,11 @@ Run in terminal `brew install git`
     - Easily change projects
 
 
-## Oh My Zsh
+## [Oh My Zsh](https://ohmyz.sh/)
 1. Run `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 2. Run `code ~/.zshrc` to open the config file.
 
-## Terminal Font - MesloLGS NF
+## Terminal Font - [MesloLGS NF](https://github.com/hayamiz/meslog)
 
 1. Install fonts: 
 - [Regular Font](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
@@ -166,7 +164,7 @@ Run in terminal `brew install git`
 - 
 2. iTerm2 > Preferences > Profiles > Text > Font
 
-## Oh My Zsh Theme
+## Oh My Zsh Theme - [PowerLevel10k](https://github.com/romkatv/powerlevel10k)
 1. Run `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
 2. Run `code ~/.zshrc` to open change the theme to `ZSH_THEME="powerlevel10k/powerlevel10k"`
 3. Run `p10k configure` 
@@ -188,7 +186,8 @@ Run in terminal `brew install git`
    -  Quiet Prompt Mode (Verbose has issues)
 
 ## Oh My Zsh Plugins
-- The plugins should be defined as so: `plugins=(alias-finder git brew copydir copyfile dotenv npm nvm osx z zsh-syntax-highlighting zsh-autosuggestions history-substring-search zsh-completions zsh_reload)`
+- The plugins should be defined as so: 
+  >plugins=(alias-finder git brew copydir copyfile dotenv npm nvm osx z zsh-syntax-highlighting zsh-autosuggestions history-substring-search zsh-completions zsh_reload)
 - Do not include any plugins you do not want to install.
 
 1. [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
@@ -221,36 +220,36 @@ Run in terminal `brew install git`
 12. [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload)
     - Reloads terminal with `src`
 
-## Node
+## [Node](https://nodejs.org/en/)
 1. Run `brew install node`
 2. To install nvm run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash`
 
-## Yarn
+## [Yarn](https://yarnpkg.com/)
 1. Run `npm install -g yarn`
 
-## Firebase
+## [Firebase](https://firebase.google.com/)
 1. Run `npm install -g firebase-tools`
 2. Run `firebase login` to login using the UI.
 
 ## Applications
-1. Google Chrome
+1. [Google Chrome](https://www.google.com/chrome/)
    - brew `brew install --cask google-chrome`
-2. Firefox
+2. [Firefox](https://www.mozilla.org/en-US/firefox/new/)
    - `brew install --cask firefox`
-3. Rectangle
+3. [Rectangle](https://rectangleapp.com/)
    - Run `brew install --cask rectangle`
    - Useful to arrange windows.
    - Create macros.
-4. Numi
+4. [Numi](https://numi.app/)
    - Run `brew install --cask numi`
    - Better calculator
-5. Telegram
+5. [Telegram](https://telegram.org/)
    - Run `brew install --cask telegram`
    - Better messaging application.
-6. Insomnia
+6. [Insomnia](https://insomnia.rest/download/#mac)
    - Run `brew install --cask insomnia`
    - Testing API endpoints.
-7. Insomnia Designer
+7. [Insomnia Designer](https://insomnia.rest/download/#mac)
    - Run `brew install --cask insomnia-designer`
    - API design.
 
@@ -272,12 +271,12 @@ Run in terminal `brew install git`
 
 1. 
    >`ssh-keygen -t ed25519 -C "your_email@example.com`"           
-   >`eval "$(ssh-agent -s)"  `
+   >`eval "$(ssh-agent -s)"`     
    >`pbcopy < ~/.ssh/id_ed25519.pub`
 2. Add key in Github
 
-## Other Github
-1. Run `git config --global user.name "Joaquin Valle"`
+## Github Logins
+1. Run `git config --global user.name "JoaquinValle"`
 2. Run `git config --global user.email "email@example.com"`
 3. Run `git config --global pull.ff only`
    
@@ -290,16 +289,16 @@ Run in terminal `brew install git`
    - >`brew tap mongodb/brew`       
      >`brew install mongocli`
 
-2. MySQL
+2. [MySQL](https://www.mysql.com/)
 3. [FaunaDB](https://docs.fauna.com/fauna/current/start/cloud#signup)
    - Run `brew install fauna-shell`
    - Run `fauna cloud-login`
    - Get secret from Database > Security > Keys (If logged suing Github)
-4. GraphQL
+4. [GraphQL](https://graphql.org/)
    - Run `npm i -g graphql-cli graphql` to install cli
 
 ## Extra Applications
-1. Godot
+1. [Godot](https://godotengine.org/)
    - Run `brew install --cask godot`
 
 ## TODO
