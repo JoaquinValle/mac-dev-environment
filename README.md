@@ -186,7 +186,7 @@ Run in terminal `brew install git`
 
 ## Oh My Zsh Plugins
 - The plugins should be defined as so: 
-  >plugins=(alias-finder git brew copydir copyfile dotenv npm nvm osx z zsh-syntax-highlighting zsh-autosuggestions history-substring-search zsh-completions zsh_reload)
+  >plugins=(zsh-syntax-highlighting zsh-autosuggestions history-substring-search zsh-completions alias-finder brew copydir copyfile dotenv git npm nvm osx z zsh_reload)
 - Do not include any plugins you do not want to install.
 
 1. [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
@@ -198,29 +198,29 @@ Run in terminal `brew install git`
 3. [Zsh Substring History Search](https://github.com/zsh-users/zsh-history-substring-search)
    - Search substrings in history.
    - Install with `git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search`
-4. [alias-finder](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/alias-finder)
-   - Searches for defined aliases.
-5. [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)
-   - Brew alias commands.
-6. [copydir](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copydir)
-   - Copies current path to clipboard.
-7. [copyfile](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copyfile)
-   - Copies file to clipboard.
-8.  [dotenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dotenv)
-   - Loads .env variables when in root folder.
-11. [npm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npm)
-   - Adds aliases.
-11. [nvm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm)
-   - Adds aliases.
-11. [osx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx)
-   - Adds aliases and utilities.
-11. [z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)
-   - Tracks most visited directories. 
-12. [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload)
-    - Reloads terminal with `src`
-13. [zsh-completions](https://github.com/zsh-users/zsh-completions)
+4.  [zsh-completions](https://github.com/zsh-users/zsh-completions)
     - Adds completion scripts.
     - Install with `git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions`
+5. [alias-finder](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/alias-finder)
+   - Searches for defined aliases.
+6. [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)
+   - Brew alias commands.
+7. [copydir](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copydir)
+   - Copies current path to clipboard.
+8. [copyfile](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copyfile)
+   - Copies file to clipboard.
+9.  [dotenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dotenv)
+   - Loads .env variables when in root folder.
+10. [npm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npm)
+   - Adds aliases.
+13. [nvm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm)
+   - Adds aliases.
+13. [osx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx)
+   - Adds aliases and utilities.
+13. [z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)
+   - Tracks most visited directories. 
+13. [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload)
+    - Reloads terminal with `src`
 
 ## [Node](https://nodejs.org/en/)
 1. Run `brew install node`
@@ -302,6 +302,7 @@ Run in terminal `brew install git`
 ## Extra Applications
 1. [Godot](https://godotengine.org/)
    - Run `brew install --cask godot`
+   - Game development engine.
 
 ## TODO
 - Add databases
