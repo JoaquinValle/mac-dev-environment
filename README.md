@@ -187,42 +187,39 @@ Run in terminal `brew install git`
    -  Transient Script 
    -  Quiet Prompt Mode (Verbose has issues)
 
-## Zsh Plugins
-1. Zsh Syntax Highlighting
-   - Highlights commands when typed.
-   - Install with `brew install zsh-syntax-highlighting`
-   - Add `source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh` to `~/.zshrc`
-
-2. Zsh Autosuggestions
-   - Suggests commands based on history.
-   - Install with `brew install zsh-autosuggestions`
-   - Add `source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh` to `~/.zshrc`
-  
-3. Zsh Substring History Search
-   - Search substrings in history.
-   - Install with `brew install zsh-history-substring-search`
-   - Add `source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh` to `~/.zshrc`
-   - Bind UP and DOWN keys with bindkey `'^[OA' history-substring-search-up` and `bindkey '^[OB' history-substring-search-down`
-
 ## Oh My Zsh Plugins
-1. Alias-finder
+- The plugins should be defined as so: `plugins=(alias-finder git brew copydir copyfile dotenv npm nvm osx z zsh-syntax-highlighting zsh-autosuggestions history-substring-search zsh-completions zsh_reload)`
+- Do not include any plugins you do not want to install.
+
+1. [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+   - Highlights commands when typed.
+   - Install with git clone `https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+2. [Zsh Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+   - Suggests commands based on history.
+   - Install with `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+3. [Zsh Substring History Search](https://github.com/zsh-users/zsh-history-substring-search)
+   - Search substrings in history.
+   - Install with `git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search`
+4. [alias-finder](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/alias-finder)
    - Searches for defined aliases.
-2. brew
+5. [brew](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/brew)
    - Brew alias commands.
-3. copydir
+6. [copydir](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copydir)
    - Copies current path to clipboard.
-4. copyfile
+7. [copyfile](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copyfile)
    - Copies file to clipboard.
-5. dotenv
+8.  [dotenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/dotenv)
    - Loads .env variables when in root folder.
-6. npm
+11. [npm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/npm)
    - Adds aliases.
-7. nvm
+11. [nvm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm)
    - Adds aliases.
-8. osx
+11. [osx](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx)
    - Adds aliases and utilities.
-9. z
+11. [z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)
    - Tracks most visited directories. 
+12. [zsh_reload](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zsh_reload)
+    - Reloads terminal with `src`
 
 ## Node
 1. Run `brew install node`
