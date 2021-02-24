@@ -161,7 +161,6 @@ Run in terminal `brew install git`
 - [Bold Font](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
 - [Italic Font](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
 - [Bold Italic Font](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
-- 
 2. iTerm2 > Preferences > Profiles > Text > Font
 
 ## Oh My Zsh Theme - [PowerLevel10k](https://github.com/romkatv/powerlevel10k)
